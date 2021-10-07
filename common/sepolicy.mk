@@ -3,7 +3,7 @@
 # inherit from Proton
 #
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/proton/sepolicy/common/private
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
